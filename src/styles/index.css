@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* custom utilities from example pages */
+.glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.cinematic-glow {
+    box-shadow: 0 0 50px -12px rgba(59, 130, 246, 0.15);
+}
+.article-content p {
+    margin-bottom: 2rem;
+    line-height: 1.9;
+    font-size: 1.15rem;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
