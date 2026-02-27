@@ -1,6 +1,6 @@
 import React from 'react';
 import ReviewCard from '../components/ReviewCard';
-import { reviewsData } from '../data/phones'; // Assuming reviews data is in phones.ts
+import { reviewsData } from '../data/phones'; // reviewsData exported from phones.ts
 
 const Reviews: React.FC = () => {
     return (

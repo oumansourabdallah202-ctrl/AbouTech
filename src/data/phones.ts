@@ -40,3 +40,6 @@ export const phones = [
     price: 799,
   },
 ];
+
+// export reviewsData for reviews page (currently same as phones, adjust if needed)
+export const reviewsData = phones;
