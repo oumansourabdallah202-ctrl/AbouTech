@@ -1,6 +1,6 @@
 import React from 'react';
 import ReviewCard from '../components/ReviewCard';
-import { reviewsData } from '../data/phones'; // reviewsData exported from phones.ts
+import { reviewsData } from '../data/phones'; // reviewsData has phoneImage, phoneName, rating, shortDescription
 
 const Reviews: React.FC = () => {
     return (
@@ -10,10 +10,10 @@ const Reviews: React.FC = () => {
                 {reviewsData.map((review) => (
                     <ReviewCard
                         key={review.id}
-                        image={review.image}
-                        name={review.name}
+                        phoneImage={review.phoneImage}
+                        phoneName={review.phoneName}
                         rating={review.rating}
-                        description={review.description}
+                        shortDescription={review.shortDescription}
                     />
                 ))}
             </div>

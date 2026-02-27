@@ -1,5 +1,6 @@
 import React from 'react';
 import ComparisonTable from '../components/ComparisonTable';
+import { phones } from '../data/phones';
 
 const Comparison: React.FC = () => {
     return (
@@ -8,7 +9,7 @@ const Comparison: React.FC = () => {
             <p className="text-center mb-8">
                 Compare the latest phones side by side to find the perfect one for you.
             </p>
-            <ComparisonTable />
+            <ComparisonTable phones={phones} />
         </div>
     );
 };

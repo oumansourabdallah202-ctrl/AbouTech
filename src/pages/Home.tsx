@@ -11,7 +11,7 @@ const sampleArticle = {
     title: 'Welcome to AbduTech!',
     author: 'AbduTech Team',
     date: 'February 27, 2026',
-    featuredImage: '/images/phone-a.jpg',
+    featuredImage: 'https://via.placeholder.com/800x400?text=Featured+Article',
     content: '<p>Stay up to date with the latest phone technology news and reviews.</p>',
 };
 
